@@ -1,0 +1,32 @@
+[
+  {
+    "name": "--Anjali Verma",
+    "profession": "Freelance Designer--",
+    "text": "This app completely changed the way I manage my finances. It’s simple, clear, and extremely helpful.",
+    "img": "img/customers/customer-1.jpg"
+  },
+  {
+    "name": "--Rohit Mehra",
+    "profession": "Software Engineer--",
+    "text": "I love how I can see exactly where my money goes. The reports and visuals are top-notch!",
+    "img": "img/customers/customer-2.jpg"
+  },
+  {
+    "name": "--pooja Singh",
+    "profession": "College Student--",
+    "text": "I started saving more within the first month of using this tracker. It’s like having a personal finance coach!",
+    "img": "img/customers/customer-3.jpg"
+  },
+  {
+    "name": "--Karan Desai",
+    "profession": "Business Owner--",
+    "text": "The collaborative budgeting feature helped me and my wife plan better. No more surprise expenses!",
+    "img": "img/customers/customer-4.jpg"
+  },
+  {
+    "name": "--Sneha Reddy",
+    "profession": "Banker--",
+    "text": "Secure, easy to use, and insightful. I trust this tool with all my financial planning.",
+    "img": "img/customers/customer-5.jpg"
+  }
+]
