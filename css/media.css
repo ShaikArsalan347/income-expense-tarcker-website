@@ -1,0 +1,685 @@
+@media screen and (max-width: 1994px) {
+  .whyus {
+    padding: 6.8rem 3.2rem 4.5rem 3.2rem;
+  }
+  .future-headings p {
+    font-size: 1.4rem;
+  }
+  .whyus-headings {
+    grid-column: 1/3;
+    padding: 1.4rem;
+  }
+
+  .whyus-cards {
+    grid-column: 1/3;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1580px) {
+  .hero {
+    gap: 0;
+  }
+  .hero-section {
+    padding: 4.2rem 4.6rem;
+  }
+  .hero-description h1 {
+    font-size: 3.2rem;
+  }
+  .hero-description h3 {
+    font-size: 1.75rem;
+  }
+  .hero-image {
+    max-width: 400px;
+  }
+  .future-headings h2 {
+    font-size: 2.6rem;
+  }
+  .section-future {
+    top: -170px;
+  }
+  .whyus h2 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+  }
+  .whyus-header {
+    margin-bottom: 0;
+  }
+  .whyus-headings h2 {
+    font-size: 2rem;
+  }
+  .whyus-cards {
+    grid-template-columns: repeat(2, 400px);
+  }
+  .whyus-card {
+    padding: 2.4rem;
+  }
+  .cta .secondary-heading {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+  .cta-text {
+    font-size: 1.4rem;
+    margin-bottom: 3.2rem;
+  }
+  .testimonials-section {
+    padding: 7.5rem 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* header {
+    height: calc(100vh);
+  } */
+  .hero-section {
+    padding: 4.2rem 3rem;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .hero-image {
+    min-width: 100%;
+  }
+  .hero-description h1 {
+    font-size: 3.2rem;
+  }
+  .hero-description h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  .hero-description p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .hero-description .input-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    height: 4.5rem;
+    border-radius: 9px;
+    width: 38rem;
+    padding: 0 1.4rem;
+    margin-top: 12px;
+  }
+  .section-future {
+    padding: 3.9rem 3rem;
+  }
+
+  .future-header small {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .future-headings h2 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 1.2;
+  }
+  .future-headings p {
+    margin-left: 3.8rem;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+    line-height: 1.4;
+  }
+  .future-card {
+    padding: 1.8rem;
+    gap: 12px;
+  }
+  .future-card span {
+    font-size: 2rem;
+  }
+  .future-card h3 {
+    font-size: 1.8rem;
+  }
+  .future-card p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    max-width: 32rem;
+  }
+  .whyus {
+    padding: 6rem 3rem 4rem 3rem;
+    /* margin-top: 14rem; */
+  }
+  .underline {
+    margin-top: 2px;
+  }
+  .whyus h2 {
+    font-size: 2rem;
+  }
+  .whyus-headings h2 {
+    font-size: 1.6rem;
+  }
+  .whyus-headings p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.4;
+  }
+  .whyus-cards {
+    grid-template-columns: repeat(2, 400px);
+    gap: 1.2rem;
+  }
+  .whyus-card {
+    padding: 1.8rem;
+  }
+  .whyus-card span {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+  .whyus-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .whyus-card p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+  .cta-text-box {
+    padding: 4rem 5.8rem 5.8rem 6rem;
+  }
+  .cta .secondary-heading {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+  }
+  .cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+  }
+  .cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.4rem;
+    row-gap: 2rem;
+  }
+  .cta-form label {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+  }
+  .btn-form {
+    width: 66%;
+    height: 65%;
+    margin-top: 24px;
+  }
+  .section-header h2 {
+    font-size: 3rem;
+  }
+  .section-header .underline {
+    margin-top: 8px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .section-center {
+    max-width: 90vw;
+  }
+  /* header {
+    height: calc(100vh - 300px);
+  } */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+  }
+  .hero-image {
+    max-width: 290px;
+  }
+  .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-description p {
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  .section-container {
+    display: grid;
+    grid-template-rows: 300px, 500px;
+    padding: 4.6rem 0;
+    gap: 3.2rem;
+  }
+  .section-future {
+    width: 100%;
+    position: static;
+    padding: 3.4rem 2.4rem;
+    top: 0px;
+    grid-row: 1/2;
+  }
+  .future-headings h2 {
+    font-size: 2.6rem;
+  }
+  .future-headings p {
+    margin-left: 0rem;
+    font-size: 1.6rem;
+  }
+  .future-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    gap: 10px;
+    margin-top: 0.5rem;
+  }
+  .future-card span {
+    font-size: 1.8rem;
+  }
+  .future-card h3 {
+    font-size: 1.8rem;
+  }
+  .future-card p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    max-width: 32rem;
+  }
+  .whyus {
+    padding: 4rem 2.4rem 3rem 2.4rem;
+    margin-top: 0;
+    grid-row: 2/3;
+  }
+  .whyus {
+    padding: 3rem 2.4rem;
+    grid-row: 2 / 3;
+  }
+
+  .whyus h2 {
+    font-size: 2.8rem;
+  }
+
+  .whyus .underline {
+    width: 80px;
+  }
+
+  .whyus-headings {
+    grid-column: 1 / 3;
+    padding: 1rem;
+  }
+
+  .whyus-headings h2 {
+    font-size: 2.4rem;
+  }
+
+  .whyus-headings p {
+    font-size: 1.6rem;
+    max-width: 800px;
+    line-height: 1.4;
+    margin: 0 auto 1rem;
+  }
+
+  .whyus-cards {
+    grid-template-columns: repeat(2, 280px);
+  }
+  .whyus-card {
+    gap: 2rem;
+    padding: 1.8rem;
+  }
+
+  .whyus-card span {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .whyus-card h3 {
+    font-size: 2.365rem;
+    margin-bottom: 01rem;
+  }
+
+  .whyus-card p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  .cta {
+    display: flex;
+  }
+  .cta .secondary-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+  .cta-text {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+  }
+
+  .cta-form {
+    column-gap: 2rem;
+    row-gap: 1.6rem;
+  }
+
+  .cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-form input,
+  .cta-form select {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* ---------- HERO ---------- */
+
+  .hero-section {
+    padding: 2.6rem 0rem;
+  }
+
+  .hero-description {
+    padding: 1.6rem;
+  }
+
+  .hero-description h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-description h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .hero-description p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+  .hero-img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .hero-description .input-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    height: 4rem;
+    border-radius: 9px;
+    width: 32rem;
+    padding: 0 1.4rem;
+    margin-top: 12px;
+  }
+
+  .hero-customers {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .customers-imgs img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .delivered-text {
+    font-size: 1.2rem;
+  }
+
+  /* ---------- FUTURE SECTION ---------- */
+  .section-future {
+    position: static;
+    top: 0;
+    padding: 2.4rem;
+  }
+
+  .future-header {
+    padding: 0.5rem;
+  }
+
+  .future-header small {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .future-headings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .future-headings h2 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .future-headings p {
+    margin-left: 0rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.4;
+  }
+  .future-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0rem;
+  }
+
+  .future-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem;
+    gap: 4px;
+    margin-top: 0;
+  }
+
+  .future-card span {
+    font-size: 1.8rem;
+  }
+
+  .future-card h3 {
+    font-size: 1.8rem;
+  }
+
+  .future-card p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    max-width: 32rem;
+  }
+
+  /* ---------- WHY US ---------- */
+  .whyus {
+    padding: 3rem 2.4rem;
+    grid-row: 2 / 3;
+  }
+
+  .whyus h2 {
+    font-size: 2.4rem;
+  }
+
+  .whyus .underline {
+    width: 60px;
+  }
+
+  .whyus-headings {
+    grid-column: 1 / 3;
+    padding: 1rem;
+  }
+
+  .whyus-headings h2 {
+    font-size: 2.2rem;
+  }
+
+  .whyus-headings p {
+    font-size: 1.4rem;
+    max-width: 800px;
+    line-height: 1.4;
+    margin: 0 auto 1rem;
+  }
+
+  .whyus-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .whyus-card {
+    gap: 2rem;
+    padding: 1.4rem;
+  }
+
+  .whyus-card span {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .whyus-card h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .whyus-card p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  /* ---------- CTA ---------- */
+  .cta-text-box {
+    padding: 4rem 5rem;
+  }
+
+  .cta .secondary-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-text {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .cta-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+    row-gap: 1.6rem;
+  }
+
+  .cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-form input,
+  .cta-form select {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .btn-form {
+    width: 100%;
+    height: 75%;
+    margin-top: 34px;
+    font-size: 1.8rem;
+  }
+
+  /* ---------- SECTION HEADER ---------- */
+  .section-header {
+    margin-bottom: 3.2rem;
+  }
+
+  .section-header h2 {
+    font-size: 2.6rem;
+  }
+
+  /* ---------- TESTIMONIALS ---------- */
+  .customer-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .testimonial-text-box {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .customer-name {
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+  }
+
+  .fa-quote {
+    font-size: 2.8rem;
+  }
+
+  /* ---------- HIDE DESKTOP NAV & FOOTER ON MOBILE ---------- */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 18px 0;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 40px;
+    gap: 3.2rem;
+  }
+  .footer-logo {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  header {
+    position: relative;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav {
+    display: block;
+    padding: 2rem 0;
+  }
+
+  .links {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+
+    padding: 0.5rem;
+    margin: 0;
+
+    list-style: none;
+    font-size: 1.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+
+    z-index: 9999;
+
+    transition: all 0.75s ease-in-out;
+
+    right: -100%;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .toggle-nav {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    font-size: 2rem;
+  }
+}

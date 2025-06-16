@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Income Expense Traker Website</title>
     <!--  -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
 
     <!--  -->
     <link
@@ -18,15 +14,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./media.css" />
+    <!--  -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <script defer src="./script.js"></script>
   </head>
   <body>
     <header class="header" id="home">
       <nav class="nav section-center">
         <div class="nav-header">
-          <div class="logo"><h3>Income Expense Traker</h3></div>
+          <div class="logo">
+            <h3>Income <span>Expense Traker</span></h3>
+          </div>
           <button class="toggle-nav btn"><i class="fa fa-bars"></i></button>
         </div>
         <ul class="links">
@@ -37,8 +36,8 @@
         </ul>
       </nav>
 
-      <section class="hero-section">
-        <div class="hero">
+      <section class="hero-section section-center">
+        <div class="hero section-center">
           <div class="hero-description">
             <h1>Master Your Budget Like a Pro</h1>
             <h3>A simple way to monitor and manage your finances.</h3>
@@ -63,66 +62,72 @@
             </div>
           </div>
           <div class="hero-image">
-            <img src="img/hero.png" alt="heroImg" />
+            <img src="img/hero.png" alt="heroImg" class="hero-img" />
           </div>
         </div>
       </section>
     </header>
 
-    <section class="future-section-container section-center">
-      <section class="section-future" id="about">
-        <div class="future-header">
-          <small>future payment</small>
-          <div class="future-headings">
-            <h2 class="secondary-heading">
-              experience that grows with your scale.
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              veniam ipsum dicta magni explicabo quas laboriosam, neque,
-              explicabo quas laboriosam,
-            </p>
-          </div>
-
-          <div class="future-cards">
-            <article class="future-card">
-              <span><i class="fa-solid fa-chart-line"></i></span>
-              <h3>Smart Budgeting</h3>
-              <p>
-                Track and categorize your expenses effortlessly. Get real-time
-                insights into your spending and savings patterns to stay on top
-                of your financial goals.
-              </p>
-            </article>
-
-            <article class="future-card">
-              <span><i class="fa-solid fa-file-invoice-dollar"></i></span>
-              <h3>Detailed Reports</h3>
-              <p>
-                Generate insightful monthly and yearly reports with just one
-                click. Visualize your income and expenses for better planning
-                and decision-making.
-              </p>
-            </article>
-
-            <article class="future-card">
-              <span><i class="fa-solid fa-shield-halved"></i></span>
-              <h3>Bank-Level Security</h3>
-              <p>
-                Your data is encrypted and protected with industry-standard
-                security protocols—ensuring your personal finances stay private
-                and secure.
-              </p>
-            </article>
-          </div>
+    <section class="section-future section-center" id="about">
+      <div class="future-header">
+        <small>future payment</small>
+        <div class="future-headings">
+          <h2 class="secondary-heading">
+            experience that grows with your scale.
+          </h2>
+          <p>
+            Track your cash flow, analyze your habits, and take control of your
+            finances—all in one intuitive dashboard.
+          </p>
         </div>
-      </section>
+      </div>
 
+      <div class="future-cards">
+        <article class="future-card">
+          <span><i class="fa-solid fa-chart-line"></i></span>
+          <h3>Smart Budgeting</h3>
+          <p>
+            Track and categorize your expenses effortlessly. Get real-time
+            insights into your spending and savings patterns to stay on top of
+            your financial goals.
+          </p>
+        </article>
+
+        <article class="future-card">
+          <span><i class="fa-solid fa-file-invoice-dollar"></i></span>
+          <h3>Detailed Reports</h3>
+          <p>
+            Generate insightful monthly and yearly reports with just one click.
+            Visualize your income and expenses for better planning and
+            decision-making.
+          </p>
+        </article>
+
+        <article class="future-card">
+          <span><i class="fa-solid fa-shield-halved"></i></span>
+          <h3>Bank-Level Security</h3>
+          <p>
+            Your data is encrypted and protected with industry-standard security
+            protocols—ensuring your personal finances stay private and secure.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="section-container">
       <div class="whyus" id="whyus">
         <div class="whyus-header">
           <h2 class="secondary-heading">Why Us</h2>
           <div class="underline"></div>
         </div>
+        <div class="whyus-headings">
+          <h2 class="">Take Control of Your Finances with Confidence</h2>
+          <p>
+            Managing money shouldn’t be complicated. We provide the tools,
+            insights, and simplicity you need to take full control of your
+            finances—without the stress.
+          </p>
+        </div>
+
         <div class="whyus-cards">
           <article class="whyus-card card1">
             <span>
@@ -147,11 +152,7 @@
             <h3>Collaborative Budgeting</h3>
             <p>
               Budget with your spouse or family by securely sharing
-              access—transparency made simple. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Quibusdam ipsa magnam dolorum ullam.
-              Consequatur, ea consectetur expedita ratione debitis aut minima
-              enim laboriosam inventore? Neque at dignissimos culpa ducimus
-              tenetur?
+              access—transparency made simple.
             </p>
           </article>
           <article class="whyus-card card4">
@@ -159,19 +160,12 @@
             <h3>Personalized Insights</h3>
             <p>
               We help you understand your habits and offer tips to improve
-              savings and reduce waste—built just for you. Lorem ipsum, dolor
-              sit amet consectetur adipisicing elit. Cupiditate tempora vel iure
-              in sequi assumenda minus sapiente quas maxime, nemo placeat quis
-              magni consectetur ea sit quisquam amet, alias velit voluptate vero
-              officiis, adipisci corporis harum. Necessitatibus corporis, omnis
-              accusantium distinctio praesentium repudiandae sint nostrum
-              exercitationem nulla itaque recusandae vitae.
+              savings and reduce waste—built just for you.
             </p>
           </article>
         </div>
       </div>
     </section>
-
     <section class="section-cta" id="cta">
       <div class="cta-container section-center">
         <div class="cta">
