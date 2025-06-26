@@ -210,7 +210,7 @@ nav {
 
 .section-future {
   margin-top: 5rem;
-  width: 100%;
+  /* width: 100%; */
   padding: 4.6rem 3.4rem;
   border-radius: 18px;
   background-color: #fff;
@@ -225,7 +225,6 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
   flex-wrap: wrap;
-  /* gap: 1rem; */
 }
 
 .future-headings h2 {
@@ -344,7 +343,7 @@ nav {
 
 .whyus-cards {
   display: grid;
-  grid-template-columns: repeat(2, 600px);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-content: center;
   gap: 2rem;
   padding: 2rem 1rem;
@@ -531,12 +530,6 @@ nav {
   margin-top: 20px;
   color: #fff;
   cursor: pointer;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 40px 0;
 }
 
 footer {

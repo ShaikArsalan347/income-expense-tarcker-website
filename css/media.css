@@ -1,3 +1,48 @@
+:root {
+  /* Font Sizes */
+
+  /* Small Sizes */
+  --fs-sm-1: 1rem;
+  --fs-sm-2: 1.2rem;
+  --fs-sm-3: 1.4rem;
+  --fs-sm-4: 1.6rem;
+  --fs-sm-5: 1.8rem;
+  --fs-sm-6: 2rem;
+
+  /* Medium Sizes */
+  --fs-md-1: 2.4rem;
+  --fs-md-2: 2.8rem;
+  --fs-md-3: 3.2rem;
+  --fs-md-4: 3.6rem;
+  --fs-md-5: 42px;
+
+  /* Large Sizes (for headings, hero text etc.) */
+  --fs-lg-1: 5.2rem;
+  --fs-lg-2: 6.2rem;
+  --fs-lg-3: 7.4rem;
+  --fs-lg-4: 8.6rem;
+  --fs-lg-5: 9.8rem;
+  --fs-lg-6: 12rem;
+
+  /* Line Heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-loose: 1.75;
+
+  /* Spacing */
+  --space-0: 0.2rem;
+  --space-1: 0.4rem;
+  --space-2: 0.8rem;
+  --space-3: 1.2rem;
+  --space-4: 1.6rem;
+  --space-5: 2.4rem;
+  --space-6: 3.2rem;
+  --space-7: 4.8rem;
+  --space-8: 6.4rem;
+  --space-9: 8rem;
+  --space-10: 9.6rem;
+  --space-11: 12.8rem;
+}
 @media screen and (max-width: 1994px) {
   .whyus {
     padding: 6.8rem 3.2rem 4.5rem 3.2rem;
@@ -15,6 +60,7 @@
     padding: 0;
   }
 }
+
 @media screen and (max-width: 1580px) {
   .hero {
     gap: 0;
@@ -138,7 +184,6 @@
   }
   .whyus {
     padding: 6rem 3rem 4rem 3rem;
-    /* margin-top: 14rem; */
   }
   .underline {
     margin-top: 2px;
@@ -212,9 +257,7 @@
   .section-center {
     max-width: 90vw;
   }
-  /* header {
-    height: calc(100vh - 300px);
-  } */
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -517,18 +560,17 @@
 
   .whyus-card {
     gap: 2rem;
-    padding: 1.4rem;
+    padding: 2rem;
   }
 
   .whyus-card span {
     display: flex;
-    justify-content: center;
     font-size: 2rem;
     margin-bottom: 0.4rem;
   }
 
   .whyus-card h3 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
