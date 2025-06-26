@@ -1,5 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+:root {
+  /* Font Sizes */
 
+  /* Small Sizes */
+  --fs-sm-1: 1rem;
+  --fs-sm-2: 1.2rem;
+  --fs-sm-3: 1.4rem;
+  --fs-sm-4: 1.6rem;
+  --fs-sm-5: 1.8rem;
+  --fs-sm-6: 2rem;
+
+  /* Medium Sizes */
+  --fs-md-1: 2.4rem;
+  --fs-md-2: 2.8rem;
+  --fs-md-3: 3.2rem;
+  --fs-md-4: 3.6rem;
+  --fs-md-5: 4.2rem;
+
+  /* Large Sizes (for headings, hero text etc.) */
+  --fs-lg-1: 5.2rem;
+  --fs-lg-2: 6.2rem;
+  --fs-lg-3: 7.4rem;
+  --fs-lg-4: 8.6rem;
+  --fs-lg-5: 9.8rem;
+  --fs-lg-6: 12rem;
+
+  /* Line Heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-loose: 1.75;
+
+  /* Spacing */
+  --space-0: 0.2rem;
+  --space-1: 0.4rem;
+  --space-2: 0.8rem;
+  --space-3: 1.2rem;
+  --space-4: 1.6rem;
+  --space-5: 2.4rem;
+  --space-6: 3.2rem;
+  --space-7: 4.8rem;
+  --space-8: 6.4rem;
+  --space-9: 8rem;
+  --space-10: 9.6rem;
+  --space-11: 12.8rem;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -313,19 +357,19 @@ nav {
   margin-bottom: 2.5rem;
 }
 .whyus h2 {
-  font-size: 2.9rem;
+  font-size: var(--fs-md-4);
   text-transform: uppercase;
 }
 .whyus-headings {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem;
+  padding: var(--fs-md-5);
   margin: 0 auto;
   /* grid-column: 1/3; */
 }
 .whyus-headings h2 {
-  font-size: 2.8rem;
+  font-size: var(--fs-md-1);
   font-weight: 700;
   color: #222;
   text-align: center;
@@ -333,7 +377,7 @@ nav {
 }
 
 .whyus-headings p {
-  font-size: 1.4rem;
+  font-size: var(--fs-sm-4);
   color: #555;
   text-align: center;
   max-width: 700px;
@@ -351,7 +395,7 @@ nav {
 
 .whyus-card {
   background-color: #fff;
-  padding: 2rem;
+  padding: var(--fs-sm-6);
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.095);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -363,27 +407,27 @@ nav {
 }
 
 .whyus-card span {
-  font-size: 2.2rem;
+  font-size: var(--fs-md-1);
   color: #298a9a;
   margin-bottom: 1rem;
   display: inline-block;
 }
 
 .whyus-card h3 {
-  font-size: 2rem;
+  font-size: var(--fs-md-1);
   margin-bottom: 0.75rem;
   color: #222;
 }
 
 .whyus-card p {
-  font-size: 1.2rem;
+  font-size: var(--fs-sm-4);
   color: #555;
   line-height: 1.6;
 }
 
 /* Testimonials Section */
 .testimonials-section {
-  padding: 9.6rem 0;
+  padding: var(--space-10) 0;
 }
 
 .section-header {
@@ -395,7 +439,7 @@ nav {
 }
 
 .section-header h2 {
-  font-size: 3.5rem;
+  font-size: var(--fs-md-4);
 }
 .testimonials {
   display: grid;
@@ -408,7 +452,7 @@ nav {
   flex-direction: column;
   max-width: 600px;
   gap: 12px;
-  padding: 2.2rem;
+  padding: var(--fs-md-2);
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 9px;
@@ -423,16 +467,16 @@ nav {
 }
 .testimonial-text-box {
   text-align: justify;
-  font-size: 2rem;
+  font-size: var(--fs-sm-6);
   font-weight: lighter;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 .customer-name {
   font-size: 1.6rem;
   font-weight: 600;
 }
 .fa-quote {
-  font-size: 3.2rem;
+  font-size: var(--fs-md-4);
   color: #7fb9c2;
   position: absolute;
 }
@@ -463,13 +507,14 @@ nav {
 }
 
 .cta .secondary-heading {
+  font-size: var(--fs-md-4);
   color: #45260a;
   margin-bottom: 3.2rem;
 }
 
 .cta-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.4;
   margin-bottom: 4.8rem;
 }
 
@@ -502,8 +547,8 @@ nav {
 .cta-form input,
 .cta-form select {
   width: 100%;
-  padding: 1.2rem;
-  font-size: 1.8rem;
+  padding: var(--fs-sm-2);
+  font-size: var(--fs-sm-5);
   font-family: inherit;
   color: inherit;
   border: none;
@@ -522,7 +567,7 @@ nav {
 }
 .btn-form {
   border: 0;
-  font-size: 2rem;
+  font-size: var(--fs-sm-6);
   background-color: #7fb9c2;
   border-radius: 9px;
   width: 60%;
@@ -544,13 +589,13 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 80px;
-  gap: 3.2rem;
+  gap: var(--fs-md-3);
 }
 
 .footer-logo-container {
   display: flex;
   margin-top: 20px;
-  gap: 10px;
+  gap: var(--space-0);
 }
 
 .footer-logo {
@@ -558,8 +603,11 @@ footer {
   font-weight: 600;
   margin-top: 5px;
   cursor: pointer;
+  color: #298a9a;
 }
-
+.footer-logo span {
+  color: #1864ab;
+}
 .footer-img {
   width: 40px;
   height: 40px;
